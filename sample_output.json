@@ -1,0 +1,17 @@
+{
+  "session_id": "kyc_20250211_143052",
+  "timestamp": "2025-02-11T14:30:52.123456",
+  "user_data": {
+    "name": "John Doe",
+    "phone": "9876543210",
+    "pan": "ABCDE1234F",
+    "consent": true
+  },
+  "verification_status": "completed",
+  "attempts": {
+    "name": 1,
+    "phone": 1,
+    "pan": 2,
+    "consent": 1
+  }
+}

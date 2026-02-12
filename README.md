@@ -1,11 +1,11 @@
-# 🎙️ KYC Voice Bot
+#  KYC Voice Bot
 A Python-based voice AI system for conducting KYC (Know Your Customer) verification through natural voice interaction. Built for Decentro's fintech platform to streamline customer onboarding.
 
-## 📋 Overview
+##  Overview
 
 This voice bot simulates a compliant KYC verification call where users provide their details through speech. The system validates inputs, handles errors gracefully, and generates structured JSON logs for backend integration.
 
-## ✨ Features
+##  Features
 
 - **Speech Recognition**: Captures user responses using Google Speech Recognition
 - **Text-to-Speech**: Natural voice prompts using pyttsx3
@@ -18,14 +18,14 @@ This voice bot simulates a compliant KYC verification call where users provide t
 - **Session Logging**: Complete JSON audit trail for compliance
 - **Graceful Degradation**: Handles unclear speech, timeouts, and technical errors
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **Python 3.8+**
 - **SpeechRecognition**: For converting speech to text
 - **pyttsx3**: For text-to-speech conversion (offline)
 - **PyAudio**: For microphone access
 
-## 📦 Installation
+##  Installation
 
 ### Prerequisites
 
@@ -60,7 +60,7 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-## 🚀 Usage
+##  Usage
 
 ### Running the Bot
 
@@ -131,12 +131,12 @@ The bot generates a JSON file in the `output/` directory with the following stru
 - `cancelled`: User interrupted the process
 - `error`: Technical error occurred
 
-## 🎥 Demo
+##  Demo
 
 Watch a 1-minute demonstration of the bot in action:
 [Demo Video Link](demo/demo_recording.mp4)
 
-## 🏗️ Project Structure
+##  Project Structure
 
 ```
 kyc-voice-bot/
@@ -149,7 +149,7 @@ kyc-voice-bot/
     └── sample_output.json
 ```
 
-## 🔧 Code Architecture
+##  Code Architecture
 
 ### Main Components
 
@@ -173,7 +173,7 @@ kyc-voice-bot/
    - Invalid input: Field-specific error messages
    - Maximum 2 retry attempts per field
 
-## ⚠️ Known Limitations
+##  Known Limitations
 
 1. **Microphone Quality**: Requires a working microphone; quality affects recognition accuracy
 2. **Background Noise**: Best used in quiet environments
@@ -181,7 +181,7 @@ kyc-voice-bot/
 4. **Internet Required**: Speech recognition uses Google's API (requires internet)
 5. **TTS Voice**: Uses system default voice (quality varies by OS)
 
-## 🔮 Future Enhancements
+##  Future Enhancements
 
 If given more time, these features could be added:
 
@@ -194,7 +194,7 @@ If given more time, these features could be added:
 7. **Database Integration**: Store sessions in a database
 8. **API Endpoints**: RESTful API for session management
 
-## 🧪 Testing
+##  Testing
 
 ### Manual Testing Checklist
 
@@ -231,7 +231,7 @@ Consent: "no"
 Expected: ❌ Session saved with status "consent_declined"
 ```
 
-## 🤝 Contributing
+##  Contributing
 
 This is an assignment submission, but suggestions are welcome!
 
@@ -239,13 +239,13 @@ This is an assignment submission, but suggestions are welcome!
 
 This project is created for the Decentro AI SDE assignment.
 
-## 👤 Author
+##  Author
 
 **Your Name**
 - GitHub: [@Hettbhutak](https://github.com/Hettbhutak)
 - Email: hetbhutak@gmail.com
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - Decentro for the interesting assignment
 - Google Speech Recognition API

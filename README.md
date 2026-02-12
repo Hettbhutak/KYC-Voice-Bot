@@ -134,7 +134,7 @@ The bot generates a JSON file in the `output/` directory with the following stru
 ##  Demo
 
 Watch a 1-minute demonstration of the bot in action:
-[Demo Video Link](demo/demo_recording.mp4)
+[Demo Video Link]([demo/demo_recording.mp4](https://youtu.be/5l8rSI74Eu8))
 
 ##  Project Structure
 
@@ -235,7 +235,7 @@ Expected: ❌ Session saved with status "consent_declined"
 
 This is an assignment submission, but suggestions are welcome!
 
-## 📝 License
+##  License
 
 This project is created for the Decentro AI SDE assignment.
 

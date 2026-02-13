@@ -1,0 +1,13 @@
+{
+  "session_id": "kyc_20260212_131431",
+  "timestamp": "2026-02-12T13:14:31.937563",
+  "user_data": {
+    "name": "John Deere",
+    "phone": "7990513615"
+  },
+  "verification_status": "pending",
+  "attempts": {
+    "name": 2,
+    "phone": 1
+  }
+}

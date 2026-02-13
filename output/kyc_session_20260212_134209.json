@@ -1,0 +1,16 @@
+{
+  "session_id": "kyc_20260212_134106",
+  "timestamp": "2026-02-12T13:41:06.422394",
+  "user_data": {
+    "name": "hate buttock",
+    "phone": "7990513615",
+    "pan": "CEETV5909P",
+    "consent": false
+  },
+  "verification_status": "consent_declined",
+  "attempts": {
+    "name": 2,
+    "phone": 1,
+    "pan": 1
+  }
+}

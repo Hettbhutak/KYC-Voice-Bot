@@ -1,0 +1,13 @@
+{
+  "session_id": "kyc_20260212_131933",
+  "timestamp": "2026-02-12T13:19:33.490794",
+  "user_data": {
+    "name": "hepatic",
+    "phone": "7990513615"
+  },
+  "verification_status": "pending",
+  "attempts": {
+    "name": 2,
+    "phone": 1
+  }
+}

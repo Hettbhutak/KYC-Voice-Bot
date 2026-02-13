@@ -1,0 +1,13 @@
+{
+  "session_id": "kyc_20260212_132504",
+  "timestamp": "2026-02-12T13:25:04.854826",
+  "user_data": {
+    "name": "Rahul Jogi",
+    "phone": "7990513615"
+  },
+  "verification_status": "pending",
+  "attempts": {
+    "name": 1,
+    "phone": 1
+  }
+}

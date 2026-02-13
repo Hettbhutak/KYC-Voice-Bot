@@ -1,0 +1,16 @@
+{
+  "session_id": "kyc_20260211_171052",
+  "timestamp": "2026-02-11T17:10:52.532059",
+  "user_data": {
+    "name": "hate product",
+    "phone": "7990513615",
+    "pan": "CEEPB5909P",
+    "consent": false
+  },
+  "verification_status": "consent_declined",
+  "attempts": {
+    "name": 1,
+    "phone": 2,
+    "pan": 2
+  }
+}

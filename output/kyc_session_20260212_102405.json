@@ -1,0 +1,13 @@
+{
+  "session_id": "kyc_20260212_102304",
+  "timestamp": "2026-02-12T10:23:04.901711",
+  "user_data": {
+    "name": "Tej bhatak",
+    "phone": "7990513615"
+  },
+  "verification_status": "pending",
+  "attempts": {
+    "name": 1,
+    "phone": 1
+  }
+}

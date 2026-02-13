@@ -1,0 +1,11 @@
+{
+  "session_id": "kyc_20260211_171931",
+  "timestamp": "2026-02-11T17:19:31.739415",
+  "user_data": {
+    "name": "hepatic"
+  },
+  "verification_status": "pending",
+  "attempts": {
+    "name": 2
+  }
+}

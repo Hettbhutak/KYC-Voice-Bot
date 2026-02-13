@@ -211,20 +211,20 @@ If given more time, these features could be added:
 
 ```bash
 # Test 1: Happy Path
-Name: "John Doe"
+Name: "Rohit Sharma"
 Phone: "9876543210"
 PAN: "ABCDE1234F"
 Consent: "yes"
 Expected: ✅ Session saved with status "completed"
 
 # Test 2: Invalid PAN
-Name: "Jane Smith"
+Name: "Virat Kohli"
 Phone: "8765432109"
 PAN: "123456" (invalid)
 Expected: ❌ Retry prompt, then ask again
 
 # Test 3: No Consent
-Name: "Bob Johnson"
+Name: "Mike Tyson"
 Phone: "7654321098"
 PAN: "XYZAB5678C"
 Consent: "no"

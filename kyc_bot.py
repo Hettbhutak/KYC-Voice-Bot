@@ -10,11 +10,6 @@ class KYCVoiceBot:
     
     def __init__(self):
         self.recognizer = sr.Recognizer()
-        self.tts_engine = pyttsx3.init()
-        
-        self.tts_engine.setProperty('rate', 160) 
-        self.tts_engine.setProperty('volume', 1.0)  
-        
         self.session_data = {
             "session_id": f"kyc_{datetime.now().strftime('%Y%m%d_%H%M%S')}",
             "timestamp": datetime.now().isoformat(),
@@ -27,8 +22,12 @@ class KYCVoiceBot:
     def speak(self, text: str) -> None:
        
         print(f"\n Bot: {text}")
-        self.tts_engine.say(text)
-        self.tts_engine.runAndWait()
+        engine = pyttsx3.init()
+        engine.setProperty('rate', 160)
+        engine.setProperty('volume', 1.0)
+        engine.say(text)
+        engine.runAndWait()
+        del engine
     
     def listen(self, timeout: int = 5) -> tuple[str | None, str]:
         

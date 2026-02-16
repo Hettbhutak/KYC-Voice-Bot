@@ -1,0 +1,16 @@
+{
+  "session_id": "kyc_20260216_214721",
+  "timestamp": "2026-02-16T21:47:21.393831",
+  "user_data": {
+    "name": "boutique",
+    "phone": "7990513615",
+    "pan": "CEEPB5909P",
+    "consent": false
+  },
+  "verification_status": "consent_declined",
+  "attempts": {
+    "name": 1,
+    "phone": 2,
+    "pan": 1
+  }
+}
